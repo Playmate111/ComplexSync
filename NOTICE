@@ -1,0 +1,22 @@
+ComplexSync
+Copyright (c) 2024 Bytedance Ltd. and/or its affiliates
+
+This product includes software developed at ByteDance Ltd. (https://www.bytedance.com/).
+
+This repository is an inference-only release built upon LatentSync
+(https://github.com/bytedance/LatentSync), licensed under the Apache License 2.0.
+
+Third-party components:
+
+* OpenAI Whisper (https://github.com/openai/whisper), MIT License.
+  Files under `latentsync/whisper/whisper/`.
+* deep_sort (https://github.com/nwojke/deep_sort), GNU General Public License v3.0.
+  Files under `deep_sort/`.
+* Stable Diffusion VAE weights (https://huggingface.co/stabilityai/sd-vae-ft-mse),
+  CreativeML Open RAIL-M License. Provided separately, not part of this repository.
+* InsightFace (https://github.com/deepinsight/insightface), MIT License.
+  Model packs are downloaded separately, not part of this repository.
+
+The pretrained model weights distributed alongside this repository are released
+for research purposes only. Please use them responsibly and in compliance with
+the licenses of the components listed above.
