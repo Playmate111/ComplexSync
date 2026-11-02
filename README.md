@@ -22,6 +22,8 @@ Guangzhou Quwan Network Technology
 
 ## 📰 News
 
+- **`2026/11/02`**: 📦 The inference code of ComplexSync is now open-sourced in this repository. See [Usage](#usage) to run the released checkpoints.
+- **`2026/11/02`**: 📊 The **Complex-Val** test set is now open-sourced on ModelScope: [ComplexSync-Val](https://modelscope.cn/datasets/alkdjfklaj/ComplexSync-Val).
 - **`2026/10/15`**: 🎉🎉🎉 Our [paper](https://arxiv.org/abs/2609.29225) has been accepted to [WACV 2027](https://wacv.thecvf.com/). We plan to release the inference code, model weights, and the **Complex-Val** test set in the coming weeks. Stay tuned and thank you for your patience!
 - **`2026/09/24`**: 🚀🚀🚀 Our [paper](https://arxiv.org/abs/2609.29225) is in public on arxiv.
 
@@ -51,10 +53,15 @@ Two checkpoints are released:
 
 The stage-2 distillation checkpoint is not released.
 
-> **Download links are not published yet.** The weights and the Complex-Val test set are
-> released through a cloud drive; the links will be added here as soon as the upload is
-> available. Until then, obtain `stage1.pt` / `stage3.pt` separately and place them as
-> described in *Model assets* below.
+> **Weight download links are not published yet.** The checkpoints will be released through a
+> cloud drive and the links will be added here as soon as the upload is available. Until then,
+> obtain `stage1.pt` / `stage3.pt` separately and place them as described in *Model assets*
+> below.
+
+## Complex-Val
+
+The **Complex-Val** test set is available on ModelScope:
+[ComplexSync-Val](https://modelscope.cn/datasets/alkdjfklaj/ComplexSync-Val).
 
 ## Installation
 
