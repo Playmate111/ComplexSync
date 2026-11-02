@@ -53,10 +53,8 @@ Two checkpoints are released:
 
 The stage-2 distillation checkpoint is not released.
 
-> **Weight download links are not published yet.** The checkpoints will be released through a
-> cloud drive and the links will be added here as soon as the upload is available. Until then,
-> obtain `stage1.pt` / `stage3.pt` separately and place them as described in *Model assets*
-> below.
+Both checkpoints are hosted on ModelScope:
+[alkdjfklaj/ComplexSync](https://modelscope.cn/models/alkdjfklaj/ComplexSync).
 
 ## Complex-Val
 
@@ -79,8 +77,9 @@ conda install -c conda-forge ffmpeg
 
 ## Model assets
 
-The repository does not ship weights. Download `stage1.pt` and `stage3.pt` and place all
-assets under a single model root (default: `models/`, overridable with `--model_root` or the
+The repository does not ship weights. Download `stage1.pt` and `stage3.pt` from
+[ModelScope](https://modelscope.cn/models/alkdjfklaj/ComplexSync) and place all assets under
+a single model root (default: `models/`, overridable with `--model_root` or the
 `MODEL_ROOT` environment variable):
 
 ```
@@ -92,6 +91,24 @@ models/
     ├── tiny.pt             # used when cross_attention_dim == 384
     └── small.pt            # used when cross_attention_dim == 768
 ```
+
+Fetch the released checkpoints with the ModelScope CLI:
+
+```bash
+pip install modelscope
+modelscope download --model alkdjfklaj/ComplexSync --local_dir models
+```
+
+or clone the model repository directly:
+
+```bash
+git lfs install
+git clone https://www.modelscope.cn/models/alkdjfklaj/ComplexSync.git models
+```
+
+The VAE (`stabilityai/sd-vae-ft-mse`) and the Whisper encoder are **not** part of that model
+repository; download them separately and place them in `models/sd-vae-ft-mse/` and
+`models/whisper/` as shown above.
 
 Both released configs use `cross_attention_dim: 384`, i.e. the Whisper `tiny` encoder.
 
