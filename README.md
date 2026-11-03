@@ -27,6 +27,63 @@ Guangzhou Quwan Network Technology
 - **`2026/10/15`**: 🎉🎉🎉 Our [paper](https://arxiv.org/abs/2609.29225) has been accepted to [WACV 2027](https://wacv.thecvf.com/). We plan to release the inference code, model weights, and the **Complex-Val** test set in the coming weeks. Stay tuned and thank you for your patience!
 - **`2026/09/24`**: 🚀🚀🚀 Our [paper](https://arxiv.org/abs/2609.29225) is in public on arxiv.
 
+## 🎬 Demo
+
+<table class="center">
+  <tr style="font-weight: bolder;text-align:center;">
+        <td width="50%"><b>Original video</b></td>
+        <td width="50%"><b>Lip-synced video</b></td>
+  </tr>
+  <tr>
+    <td>
+      <video src=https://github.com/user-attachments/assets/2b71b7f4-bb61-4669-9202-67d3a3c943a0 controls preload></video>
+    </td>
+    <td>
+      <video src=https://github.com/user-attachments/assets/2ec7666b-caf1-4110-9fda-c903bbd40cbe controls preload></video>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <video src=https://github.com/user-attachments/assets/e4f77ab7-b3b9-495b-9676-9e263d160eaf controls preload></video>
+    </td>
+    <td>
+      <video src=https://github.com/user-attachments/assets/15ade614-8202-4974-8f66-3b3eee976a58 controls preload></video>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <video src=https://github.com/user-attachments/assets/781aaf1d-0f34-43c9-9901-f7a7f01d0f6d controls preload></video>
+    </td>
+    <td>
+      <video src=https://github.com/user-attachments/assets/46a2afe5-2391-4832-9822-3f07fc93d67b controls preload></video>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <video src=https://github.com/user-attachments/assets/7ba3f886-85ab-47a9-a60f-f0157dbe280e controls preload></video>
+    </td>
+    <td>
+      <video src=https://github.com/user-attachments/assets/d73bbf97-24a9-4ce2-a241-2014af347969 controls preload></video>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <video src=https://github.com/user-attachments/assets/e9481d04-15dd-48e2-9105-731a15b11e8b controls preload></video>
+    </td>
+    <td>
+      <video src=https://github.com/user-attachments/assets/513204d9-f18b-4972-8e6a-ee4a5c012ef9 controls preload></video>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <video src=https://github.com/user-attachments/assets/0dcd05a6-d07f-4de2-b1c9-b06a333ae71c controls preload></video>
+    </td>
+    <td>
+      <video src=https://github.com/user-attachments/assets/a6293c3c-0e54-445f-8ae3-44022eb0f61a controls preload></video>
+    </td>
+  </tr>
+</table>
+
 ## Overview
 
 This repository is the **inference-only** release of ComplexSync, a talking-head video
