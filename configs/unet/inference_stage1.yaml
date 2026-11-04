@@ -41,6 +41,10 @@ model:
   sample_size: 64
   resnet_time_scale_shift: default
 
+  # LoRA factors used when merging the adapter into the base weights.
+  lora_rank: 64
+  lora_alpha: 64
+
   use_motion_module: true
   motion_module_resolutions: [1, 2, 4, 8]
   motion_module_mid_block: false

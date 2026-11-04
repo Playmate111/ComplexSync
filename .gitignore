@@ -10,8 +10,10 @@ venv/
 env/
 
 # Model weights and data
-models/
-checkpoints/
+# Only ignore the top-level weights directory. Without the leading slash this
+# pattern also matches `latentsync/models/`, which is inference source code.
+/models/
+/checkpoints/
 *.pt
 *.pth
 *.ckpt

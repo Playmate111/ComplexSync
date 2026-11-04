@@ -132,6 +132,15 @@ pip install -r requirements.txt
 conda install -c conda-forge ffmpeg
 ```
 
+The pipeline runs InsightFace with the CUDA execution provider, so a CUDA-compatible
+`onnxruntime-gpu` is required. It is listed in `requirements.txt`; if a CPU-only
+`onnxruntime` was installed previously, replace it:
+
+```bash
+pip uninstall -y onnxruntime
+pip install onnxruntime-gpu
+```
+
 ## Model assets
 
 The repository does not ship weights. Download `stage1.pt` and `stage3.pt` from

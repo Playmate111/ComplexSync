@@ -14,5 +14,10 @@ imageio-ffmpeg>=0.4.9
 ffmpeg-python>=0.2.0
 decord>=0.6.0
 insightface>=0.7.3
+# The pipeline requests InsightFace's CUDA execution provider, which requires
+# onnxruntime-gpu (the CPU onnxruntime pulled in by insightface is not enough).
+onnxruntime-gpu>=1.16.0
+more_itertools>=10.1.0
+packaging>=23.0
 regex>=2023.0.0
 tqdm>=4.66.0
