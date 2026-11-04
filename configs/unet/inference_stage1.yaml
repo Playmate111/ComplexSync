@@ -42,8 +42,9 @@ model:
   resnet_time_scale_shift: default
 
   # LoRA factors used when merging the adapter into the base weights.
+  # Stage 1 was trained with r=64, lora_alpha=128.
   lora_rank: 64
-  lora_alpha: 64
+  lora_alpha: 128
 
   use_motion_module: true
   motion_module_resolutions: [1, 2, 4, 8]
